@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title>Hainje Home Solutions</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <script>
+    $(document).ready(function(){
+      $(".navbar-brand, .navbar a, footer a[href='#myPage']").on('click', function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
+          window.location.hash = hash;
+          });
+        }
+      });
+    })
+  </script>
+<!--
+  <script>
+    $(window).scroll(function() {
+      $(".slideanim").each(function(){
+        var pos = $(this).offset().top;
+        var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+      });
+    });
+  </script>
+-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Overpass" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<div class="jumbotron text-center">
+  <h1>HAINJE HOME SOLUTIONS</h1>
+  <p>Giving our customers top quality products and services at an affordable price.</p>
+</div>
+
+<div id="about" class="container text-center">
+  <div class="col-sm-7">
+    <h2>ABOUT US</h2>
+    <p class="text-left">We are a Lafayette, IN based company specializing in custom shower doors, shelving, bath hardwware, mirrors, and window blinds.</p>
+  </div>
+  <div class="col-sm-5">
+    <img class="hhslogo" src="figures/logo.png" width="308" height="134px"/>
+  </div>
+</div>
+
+<!--
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="container bg-grey">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      </div>
+      <div class="col-sm-8">
+        <h2>Our Values</h2>
+        <h4><strong>MISSION:</strong> Our mission blah blah blah...</h4>
+        <p><strong>VISION:</strong> Our vision blah blah blah...</p>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<!--
+<div id="services" class="container-fluid bg-grey text-center slideanim">
+  <h2>SERVICES</h2>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="figures/shower_door.jpg" height="480" width="360"/>
+    </div>
+    <div class="col-sm-4">
+      <img src="figures/bath_accessories.jpg" height="480" width="360"/>
+    </div>
+    <div class="col-sm-4">
+      <img src="figures/laminate2.jpg" height="480" width="360"/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h4>SHOWER DOORS</h4>
+    </div>
+    <div class="col-sm-4">
+      <h4>BATH ACCESSORIES</h4>
+    </div>
+    <div class="col-sm-4">
+      <h4>LAMINATE SHELVING</h4>
+    </div>
+  </div>
+  <br><br>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="figures/blinds.jpg" height="360" width="480" />
+      <h4>WINDOW BLINDS</h4>
+    </div>
+    <div class="col-sm-4 text-center">
+      <img src="figures/mirrors.jpg" height="360" width="480"/>
+      <h4>MIRRORS</h4>
+    </div>
+    <div class="col-sm-4">
+      <img src="figures/wire2.jpg" height="360" width="480"/>
+      <h4>WIRE SHELVING</h4>
+    </div>
+  </div>
+</div>
+-->
+
+<div id="services" class="container-fluid text-center slideanim bg-grey">
+  <h2>SERVICES</h2>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <a href="#" width=100%>
+        <img class="figimgwide" src="figures/mirrors.jpg" width=100%>
+        <br>
+        <span><b>Mirrors and Bath Accessories</b></span>
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <a href="#" width=100%>
+        <img class="figimgtall" src="figures/shower_door.jpg" width=75%>
+        <br>
+        <span><b>Shower Doors</b></span>
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <a href="#" width=100%>
+        <img class="figimgtall" src="figures/laminate2.jpg" width=75%>
+        <br>
+        <span><b>Custom Shelving</b></span>
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <a href="#" width=100%>
+        <img class="figimgwide" src="figures/blinds.jpg" width=100%>
+        <br>
+        <span><b>Window Blinds</b></span>
+      </a>
+    </div>
+</div>
+
+<!--
+<div id="portfolio" class="container-fluid text-center bg-grey slideanim">
+  <h2>Portfolio</h2>
+  <h4>What we have created</h4>
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="paris.jpg" alt="Paris">
+        <p><strong>Paris</strong></p>
+        <p>Yes, we built Paris</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="newyork.jpg" alt="New York">
+        <p><strong>New York</strong></p>
+        <p>We built New York</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="sanfran.jpg" alt="San Francisco">
+        <p><strong>San Francisco</strong></p>
+        <p>Yes, San Fran is ours</p>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<!--
+<div id="gallery" class="container-fluid slideanim">
+  <h2 class="text-center">GALLERY</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>A picture will go here</h4>
+      </div>
+      <div class="item">
+        <h4>And here</h4>
+      </div>
+      <div class="item">
+        <h4>And here</h4>
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+-->
+
+<div id="contact" class="container-fluid text-center slideanim">
+  <h2>CONTACT</h2>
+  <div class="row">
+    <!--<div class="col-sm-5">-->
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <p>Contact us and we'll get back to you as soon as we can.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>: Lafayette, IN</p>
+      <p><span class="glyphicon glyphicon-phone"></span>: (765) 714-7710</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>: hainjehomesolutions@aol.com</p>
+    </div>
+    <div class="col-sm-4"></div>
+    <!--<div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="text" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comments" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>-->
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage">Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <!--<li><a href="#gallery">GALLERY</a></li>-->
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>&copy; 2017 by Hainje Home Solutions</p>
+</footer>
+
+</body>
+</html>
