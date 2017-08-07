@@ -1,0 +1,49 @@
+.navbar {
+  margin-bottom: 0;
+  background-color: #437ac1;
+  z-index: 9999;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  width: 100vw;
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+  font-family: "Overpass", sans-serif;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-left a {
+  letter-spacing: normal !important;
+  font-size: 20px !important;
+}
+
+.navbar-nav li.active a {
+  color: #437ac1 !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff;
+}
+
+.navbar-logos {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-right: 0px !important;
+}
+
+nav .container {
+  padding: 0px;
+}

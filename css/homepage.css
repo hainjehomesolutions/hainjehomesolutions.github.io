@@ -1,0 +1,34 @@
+h2  {
+  font-size: 28pt;
+}
+
+a:link, a:visited, a:hover, a:active {
+  font-family: "Overpass", sans-serif;
+  text-decoration: none;
+}
+
+.jumbotron {
+  padding: 100px 25px;
+  padding-bottom: 20px;
+}
+
+.container, .container-fluid {
+  padding: 60px 50px;
+}
+
+#maincarousel img {
+  height: 700px;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #437ac1;
+}
+
+.carousel-indicators li {
+  border-color: #437ac1;
+}
+
+.carousel-indicators li.active {
+  background-color: #437ac1;
+}

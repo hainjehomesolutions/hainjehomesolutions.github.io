@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="250"
+   height="250"
+   viewBox="0 0 66.145832 66.145835"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="fb-full.svg"
+   inkscape:export-filename="C:\Users\connor\Pictures\icons\web\fb-full.png"
+   inkscape:export-xdpi="98.303993"
+   inkscape:export-ydpi="98.303993">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="29.54834"
+     inkscape:cy="4.8734335"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="3840"
+     inkscape:window-height="2035"
+     inkscape:window-x="3827"
+     inkscape:window-y="-13"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-74.150473,-103.69924)">
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 78.119223,103.69923 h 58.208337 c 2.19869,0 3.96875,1.77006 3.96875,3.96875 v 58.20834 c 0,2.19868 -1.77006,3.96875 -3.96875,3.96875 H 119.9372 v -25.5896 h 8.35218 l 1.33018,-10.08659 h -9.68853 v -7.32329 c 0.0535,-1.68727 1.37451,-3.76443 3.60087,-3.76121 l 6.46892,-0.0285 0.10111,-9.02419 -9.47612,-0.32432 c -6.18709,-0.21175 -11.05687,5.7074 -11.17083,11.67073 l -0.14174,8.78794 h -8.419 v 10.08943 h 8.419 v 25.5896 H 78.119223 c -2.19869,0 -3.96875,-1.77007 -3.96875,-3.96875 v -58.20834 c 0,-2.19869 1.77006,-3.96875 3.96875,-3.96875 z"
+       id="rect4496"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssscccccccccsccccccssss" />
+  </g>
+</svg>
