@@ -8,8 +8,14 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .jumbotron {
-  padding: 100px 25px;
+  padding: 50px 25px;
   padding-bottom: 20px;
+}
+
+@media (max-width: 550px) {
+  #jumbologo {
+    height: 0px;
+  }
 }
 
 .container, .container-fluid {
